@@ -79,10 +79,8 @@ button
     width: 110px; 
     height: 110px;
     border-radius: 100%;
-    background-image: url(/кнопка.jpg);
     background-size: cover;
     margin-bottom: 10px;
-    /* background-color: aqua; */
     cursor: pointer;
     position: relative;
 }
