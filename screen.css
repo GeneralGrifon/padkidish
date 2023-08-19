@@ -83,6 +83,8 @@ button
     margin-bottom: 10px;
     cursor: pointer;
     position: relative;
+    background-image: url(кнопка.jpg);
+    background-size: cover;
 }
 button:hover 
 {
