@@ -120,7 +120,7 @@ li
 .doshik 
 {
     top: 0px; right: 0;
-    background-image: url(/дошик.jpg);
+    background-image: url(дошик.jpg);
     position: absolute; width: 70%; 
     height: 100%;
     background-size: cover;
