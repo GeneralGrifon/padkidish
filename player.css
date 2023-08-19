@@ -12,7 +12,7 @@ button
     width: 200px; 
     height: 200px;
     border-radius: 100%;
-    background-image: url(/кнопка.jpg);
+    background-image: url(кнопка.jpg);
     background-size: cover;
     /* background-color: aqua; */
     cursor: pointer;
