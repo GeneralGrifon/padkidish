@@ -1,0 +1,172 @@
+
+.creative 
+{
+    background-color: hsl(51, 17%, 31%);
+    width: 100%; 
+    height: 130%; 
+    /* height: 100%;  */
+    /* margin: 40px; */
+    display: flex; flex-wrap: wrap;
+}
+.creativeshell
+{
+    position: relative; width: 50%; top: 0;
+    height: 100%; 
+    overflow: hidden;
+}
+#creativebg 
+{
+    position: absolute;
+    /* background-image: url(/creative/4.jpg); */
+    background-size: cover;
+    filter: grayscale(1) contrast(0.5) brightness(1.2) blur(5px) ;
+    
+}
+.creativeinfo
+{
+    position: absolute; font-size: 2vw; right: 10%; top: 0; background-color: #000000;
+     /* padding: 30px;  */
+     top: 0px;
+    overflow: hidden;
+    width: 50%; height: 100%; right: 0;
+}
+.creativeinfo p 
+{
+    position: absolute; color:  white; padding: 100px; top: 0; margin: 0; letter-spacing: 10px; line-height: 55px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#creainfobf
+{
+    position: absolute;
+    width: 100%; height: auto;
+    left: 0;
+    /* z-index: -1; */
+    filter: grayscale(1) contrast(1.7) brightness(0.35) blur(5px) ;
+}
+.creative img 
+{
+    position: relative;
+    /* position: absolute;  */
+    /* height: 300px; */
+}
+.creative #c1
+{
+    /* top: 0; left: 0; */
+    animation: scale 3s infinite;
+    /* z-index: 1; */
+    height: 200px;
+    
+}
+
+
+.creative #c2
+{
+    /* top: 0; left: 200px; */
+    animation: scale 3s infinite;
+    animation-delay: 4s;
+    height: 300px;
+}
+.creative #c3
+{
+    /* top: 0; left: 400px; */
+    animation: scale 5s infinite;
+    animation-delay: 8s;
+    height: 300px;
+}
+.creative #c4
+{
+    /* top: 0; left: 600px; */
+    animation: scale 5s infinite;
+    animation-delay: 12s;
+    height: 400px;
+}
+.creative #c5
+{
+    /* top: 300px; left: 0px; */
+    animation: scale 5s infinite;
+    animation-delay: 16s;
+    height: 365px;
+}
+.creative #c6
+{
+    /* top: 300px; left: 200px; */
+    animation: scale 5s infinite;
+    animation-delay: 20s;
+    height: 200px;
+}
+.creative #c7
+{
+    /* top: 300px; left: 400px; */
+    animation: scale 5s infinite;
+    animation-delay: 24s;
+    height: 300px;
+}
+.creative #c8
+{
+    /* top: 300px; left: 600px; */
+    animation: scale 5s infinite;
+    animation-delay: 28s;
+    height: 200px;
+}
+.creative #c9
+{
+    /* top: 600px; left: 0px; */
+    animation: scale 5s infinite;
+    animation-delay: 32s;
+    height: 300px;
+}
+.creative #c10
+{
+    /* top: 600px; left: 200px; */
+    animation: scale 5s infinite;
+    animation-delay: 36s;
+    height: 200px;
+}
+.creative #c11
+{
+    /* top: 600px; left: 400px; */
+    animation: scale 5s infinite;
+    animation-delay: 40s;
+    height: 250px;
+}
+.creative #c12
+{
+    /* top: 600px; left: 800px; */
+    animation: scale 5s infinite;
+    animation-delay: 44s;
+    height: 100px;
+}
+
+
+
+.creative #c1:hover, .creative #c2:hover, .creative #c3:hover, .creative #c4:hover, .creative #c5:hover, .creative #c6:hover, .creative #c7:hover
+, .creative #c8:hover, .creative #c9:hover, .creative #c10:hover, .creative #c11:hover, .creative #c12:hover, .creative #c13:hover, .creative #c14:hover
+{
+    /* top: 0; left: 0; */
+    animation: none;
+    scale: 2; z-index: 1;
+    
+}
+@keyframes scale
+{
+    0%
+    {
+        scale: 1;
+    }
+    40%
+    {
+        height: 400px;
+    }
+    60%
+    {
+        height: 400px;
+    }
+    70%
+    {
+        scale: 1;
+    }
+    100%
+    {
+        scale: 1;
+    }
+}

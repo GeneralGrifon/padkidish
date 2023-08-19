@@ -1,0 +1,57 @@
+.player 
+{
+    width: 100%; height: 100%; background-color: rgb(0, 128, 128);
+    overflow: hidden;
+}
+#audioPlayer 
+{
+    display: none;
+}
+button 
+{
+    width: 200px; 
+    height: 200px;
+    border-radius: 100%;
+    background-image: url(/кнопка.jpg);
+    background-size: cover;
+    /* background-color: aqua; */
+    cursor: pointer;
+    position: relative;
+}
+button:hover 
+{
+    box-shadow: 0 0 10px rgb(157, 255, 0),
+    0 0 15px rgb(157, 255, 0),
+    0 0 20px rgb(157, 255, 0)
+    ;
+}
+.player p
+{
+    text-align: center;
+    padding: 20px;
+    font-size: 4vw; color: white;
+    text-shadow: 0 0 10px rgb(157, 255, 0),
+    0 0 15px rgb(157, 255, 0),
+    0 0 20px rgb(157, 255, 0)
+    ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-size: 4vw; */
+}
+.controls 
+{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative; width: 40%;
+    border-radius: 10%;
+    height: 50%;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(0, 45, 45);
+}
+#playerbg 
+{
+    position: absolute;
+    filter: grayscale(1) brightness(0.5);
+    mix-blend-mode: screen;
+}
